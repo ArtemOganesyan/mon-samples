@@ -18,7 +18,7 @@ setup.kibana:
 
 output.elasticsearch:
   hosts: ["https://es.digiorum.com:443"]
-  index: "heartbeat-%{+yyyy.MM.dd}"
+  index: "hb-%{+yyyy.MM.dd}"
   protocol: "https"
   username: "elk_user"
   password: "elk_pass"
