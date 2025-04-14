@@ -4,6 +4,7 @@ filebeat.inputs:
   enabled: true
   paths:
     - /var/log/*.log
+    - /home/ec2-user/smstests/student_server.log
 filebeat.config.modules:
   path: ${path.config}/modules.d/*.yml
   reload.enabled: false
